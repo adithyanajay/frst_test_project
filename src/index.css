@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* global CSS variable for the project */
+/* Accessable in every css file in this project */
+:root {
+  --white: #ffff;
+  --btn_yellow: #F9A826;
+  --btn_red: #EA8282;
+  --btn_green: #60BF88;
+  --main_text_clr: #2F527B;
+  --sec_text_clr: #1D355D;
+
+}
+

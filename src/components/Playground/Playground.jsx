@@ -1,9 +1,13 @@
 import "./Playground.css";
 
-function Playground() {
+function Playground({ Component }) {
   return (
-    //Write your code here
-    <div></div>
+    <div className="Playground">
+      <h1 className="Playground-heading">country quiz</h1>
+      <div className="Playground-content-sec">
+        <Component />
+      </div>
+    </div>
   );
 }
 

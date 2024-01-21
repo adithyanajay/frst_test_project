@@ -1,0 +1,25 @@
+.Playground {
+    width: 100%;
+    max-width: 450px;
+}
+
+.Playground-heading {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-bottom: .5rem;
+    font-weight: 800;
+}
+
+.Playground-content-sec {
+    background-color: var(--white);
+    padding: 2.5rem 1rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media only screen and (min-width:700px) {
+    .Playground-heading {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,15 @@
+.QuizScreen {
+    position: relative;
+    padding-bottom: 2rem;
+}
+.QuizScreen-img {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+    width: 130px;
+}
+.QuizScreen_ques {
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    color: var(--sec_text_clr);
+}

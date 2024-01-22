@@ -1,0 +1,24 @@
+.ResultScreen {
+    text-align: center;
+}
+
+.ResultScreen_img {
+    max-width: 200px;
+    margin-bottom: 2rem;
+
+}
+.ResultScreen_result {
+    color: var(--btn_green);
+    font-size: 1.2rem;
+}
+.ResultScreen_heading {
+    color: var(--main_text_clr);
+    font-size: 1.8rem;
+}
+
+.ResultScreen_para {
+    font-size: .9rem;
+    color: var(--sec_text_clr);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

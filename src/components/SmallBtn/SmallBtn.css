@@ -1,0 +1,21 @@
+.SmallBtn {
+    margin-top: 1rem;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    max-width: 80px;
+    border-radius: 5px;
+    border: 3px solid var(--btn_yellow);
+    color: white;
+    padding: .2rem ;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: var(--btn_yellow);
+    cursor: pointer;
+}
+
+.SmallBtn:hover {
+    background-color: white;
+    transition: all ease-in .1s;
+    color: var(--btn_yellow);
+}

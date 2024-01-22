@@ -1,0 +1,32 @@
+.Option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    background-color: white;
+    color: var(--sec_text_clr);
+    border: 2px solid var(--sec_text_clr);
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.OptionClick:hover {
+    background-color: var(--btn_yellow);
+    color: white;
+    border: white solid 2px;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+.wrong_ans {
+    background-color: var(--btn_red);
+    color: white;
+    border: white solid 2px;
+}
+
+.correct_ans {
+    background-color: var(--btn_green);
+    color: white;
+    border: white solid 2px;
+}

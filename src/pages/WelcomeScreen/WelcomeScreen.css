@@ -1,0 +1,21 @@
+.WelcomeScreen {
+    text-align: center;
+
+}
+.WelcomeScreen-heading {
+    margin: auto;
+    text-align: center;
+    color: var(--main_text_clr);
+    font-size: 2rem;
+}
+.WelcomeScreen-para {
+    color: var(--sec_text_clr);
+    margin-bottom: 2rem;
+    padding: .5rem 1rem;
+}
+
+@media only screen and (min-width:700px) {
+    .WelcomeScreen-heading {
+        font-size: 2rem;
+    }
+}

@@ -1,7 +1,11 @@
 import "./MediumBtn.css";
-//Write your code here
-function MediumBtn() {
-  return <div></div>;
+
+function MediumBtn({ text, onClickFunc }) {
+  return (
+    <button className="MediumBtn" onClick={onClickFunc}>
+      <p className="MediumBtn-text">{text}</p>
+    </button>
+  );
 }
 
 export default MediumBtn;

@@ -1,5 +1,3 @@
-// Write your code here..............
-
 import "./App.css";
 import Playground from "./components/Playground/Playground";
 import WelcomeScreen from "./pages/WelcomeScreen/WelcomeScreen";

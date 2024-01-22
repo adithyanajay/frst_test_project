@@ -5,7 +5,7 @@ function WelcomeScreen() {
   return (
     <div className="WelcomeScreen">
       <h1>Welcome Screen</h1>
-      <MediumBtn />
+      <MediumBtn text={"Start"} onClickFunc={() => console.log("test")} />
     </div>
   );
 }

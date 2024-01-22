@@ -1,3 +1,3 @@
-tabs: ["src/components/SmallBtn/SmallBtn.jsx"]
+tabs: ["src/pages/WelcomeScreen/WelcomeScreen.jsx"]
 terminals: ["yarn install && yarn dev"]
 run-button: yarn dev

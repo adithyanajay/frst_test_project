@@ -1,7 +1,7 @@
 import "./QuizScreen.css";
 
 function QuizScreen() {
-  return <div>Quiz Screen</div>;
+  return <div className="QuizScreen">Quiz Screen</div>;
 }
 
 export default QuizScreen;

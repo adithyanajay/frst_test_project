@@ -23,7 +23,7 @@ function QuizScreen() {
       //nativagate screen to resutl Screen
       setCurrentScreen(2);
       // To make the game run in loop. Think about it.
-      gameEnd(false);
+      setGameEnd(false);
     } else {
       if (userClicked) {
         setCurrentQuizIndex((prev) => prev + 1);

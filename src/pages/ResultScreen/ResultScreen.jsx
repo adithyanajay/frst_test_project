@@ -6,7 +6,9 @@ import MediumBtn from "../../components/MediumBtn/MediumBtn";
 
 function ResultScreen() {
   const { resultCount } = useContext(Result);
-  return <div className={`ResultScreen ${resultCount}`}>Result Screen</div>;
+  return (
+    <div className={`ResultScreen Result_${resultCount}`}>Result Screen</div>
+  );
 }
 
 export default ResultScreen;

@@ -3,7 +3,7 @@ import Playground from "./components/Playground/Playground";
 import WelcomeScreen from "./pages/WelcomeScreen/WelcomeScreen";
 import QuizScreen from "./pages/QuizScreen/QuizScreen";
 import ResultScreen from "./pages/ResultScreen/ResultScreen";
-import { Screen } from "./context/index";
+import { Result, Screen } from "./context/index";
 import { useState } from "react";
 
 function App() {

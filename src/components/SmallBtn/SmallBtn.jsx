@@ -1,4 +1,16 @@
 import "./SmallBtn.css";
+import { Result } from "../../contextApi";
+import { useContext } from "react";
+
+//for testing purpose
+function GetResultCount() {
+  const { resultCount, setResultCount } = useContext(Result);
+  if(resultCount) {
+    setResultCount(prev=>prev+1)
+    return result;
+  }
+}
+
 
 function SmallBtn({ text, onClickFunc }) {
   return (
@@ -8,4 +20,4 @@ function SmallBtn({ text, onClickFunc }) {
   );
 }
 
-export default SmallBtn;
+export default {GetResultCount} SmallBtn;

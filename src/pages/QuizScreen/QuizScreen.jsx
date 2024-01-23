@@ -1,6 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Option from "../../components/Option/Option";
 import "./QuizScreen.css";
+
+export let i = false;
+export let j = false;
 
 function QuizScreen() {
   //Note this page is modified for testing purpose
@@ -8,6 +11,16 @@ function QuizScreen() {
   //Only update code in src(src/components/Option/Option.jsx)
   const [userClicked, setUserClicked] = useState(false);
   const [gameEnd, setGameEnd] = useState(false);
+
+  useEffect(() => {
+    if (userClicked) {
+      i = true;
+    }
+    if (gameEnd) {
+      j = true;
+    }
+  }, [userClicked, gameEnd]);
+
   return (
     <div className="QuizScreen">
       <Option

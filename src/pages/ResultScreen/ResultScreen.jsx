@@ -5,7 +5,7 @@ import winner from "../../assets/winner.svg";
 import MediumBtn from "../../components/MediumBtn/MediumBtn";
 
 function ResultScreen() {
-  return <div className={`ResultScreen`}>Result Screen</div>;
+  return <div className={`ResultScreen`}></div>;
 }
 
 export default ResultScreen;

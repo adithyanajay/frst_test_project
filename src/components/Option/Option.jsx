@@ -14,6 +14,9 @@ function Option({
     if (optionClicked && !correct) {
       setGameEnd(true);
     }
+    if (optionClicked && correct) {
+      setOptionClicked(false);
+    }
   }, [optionClicked]);
 
   const checkFunction = () => {

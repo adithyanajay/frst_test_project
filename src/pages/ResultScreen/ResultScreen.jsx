@@ -1,7 +1,7 @@
 import "./ResultScreen.css";
 
 function ResultScreen() {
-  return <div>Result Screen</div>;
+  return <div className="ResultScreen">Result Screen</div>;
 }
 
 export default ResultScreen;

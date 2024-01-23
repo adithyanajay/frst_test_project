@@ -5,7 +5,8 @@ import winner from "../../assets/winner.svg";
 import MediumBtn from "../../components/MediumBtn/MediumBtn";
 
 function ResultScreen() {
-  return <div className="ResultScreen">Result Screen</div>;
+  const { resultCount } = useContext(Result);
+  return <div className={`ResultScreen ${resultCount}`}>Result Screen</div>;
 }
 
 export default ResultScreen;

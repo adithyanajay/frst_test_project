@@ -8,6 +8,7 @@ import { Screen, Result } from "../../context/index.js";
 
 //Write your code here............
 function QuizScreen() {
+  const { setResultCount } = useContext(Result);
   const [currentQuizIndex, setCurrentQuizIndex] = useState(0);
   const [userClicked, setUserClicked] = useState(false);
   const [gameEnd, setGameEnd] = useState(false);
@@ -27,6 +28,7 @@ function QuizScreen() {
     } else {
       if (userClicked) {
         setCurrentQuizIndex((prev) => prev + 1);
+        setResultCount((prev) => prev + 1);
         setUserClicked(false);
       }
     }

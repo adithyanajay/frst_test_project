@@ -8,7 +8,7 @@ import { useState } from "react";
 
 function App() {
   const screens = [WelcomeScreen, QuizScreen, ResultScreen];
-  const [currentScreen, setCurrentScreen] = useState(0);
+  const [currentScreen, setCurrentScreen] = useState(1);
   return (
     <div className="App">
       <Screen.Provider value={{ currentScreen, setCurrentScreen }}>

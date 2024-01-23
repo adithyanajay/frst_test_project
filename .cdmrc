@@ -1,3 +1,3 @@
-tabs: ["src/pages/WelcomeScreen/WelcomeScreen.jsx"]
+tabs: ["src/components/Option/Option.jsx"]
 terminals: ["yarn install && yarn dev"]
 run-button: yarn dev

@@ -19,13 +19,13 @@
     cursor: pointer;
 }
 
-.wrong_ans {
+.OptionWrong {
     background-color: var(--btn_red);
     color: white;
     border: white solid 2px;
 }
 
-.correct_ans {
+.OptionCorrect {
     background-color: var(--btn_green);
     color: white;
     border: white solid 2px;

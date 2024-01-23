@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import "./ResultScreen.css";
-import { Result, Screen } from "../../contextApi";
+import { Result, Screen } from "../../context/index";
 import winner from "../../assets/winner.svg";
 import MediumBtn from "../../components/MediumBtn/MediumBtn";
 

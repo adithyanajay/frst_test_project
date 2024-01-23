@@ -6,6 +6,9 @@ import ResultScreen from "./pages/ResultScreen/ResultScreen";
 import { Result, Screen } from "./context/index";
 import { useState } from "react";
 
+//Write your code here..............
+
+
 function App() {
   const screens = [WelcomeScreen, QuizScreen, ResultScreen];
   const [currentScreen, setCurrentScreen] = useState(1);
